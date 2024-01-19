@@ -59,7 +59,7 @@ resource "aws_instance" "webserver_instance" {
 }
 
 ###########################################
-# output 
+# output  
 ###########################################
 
 output "public_ip" {
