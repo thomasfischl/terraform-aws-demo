@@ -31,7 +31,7 @@ locals {
 # resources
 ###########################################
 
-/*
+
 resource "aws_security_group" "webserer_sg" {
   name = "webserver-sg"
 
@@ -69,13 +69,13 @@ resource "aws_instance" "webserver_instance" {
   tags = {
     Name = "webserver"
   }
-}*/
+}
 
 ###########################################
 # output  
 ###########################################
 
-/* 
+
 output "public_ip" {
   value = aws_instance.webserver_instance.public_ip
 }
@@ -83,4 +83,3 @@ output "public_ip" {
 output "url" {
   value = "http://${aws_instance.webserver_instance.public_ip}"
 }
-*/
