@@ -7,7 +7,7 @@ terraform {
     key    = "rev-demo.tf"
     region = "us-east-1"
   }
-} 
+}
 
 
 ###########################################
